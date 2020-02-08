@@ -14,7 +14,7 @@ class Boxer(name:String, power:Int, speed: Int) {
     private var speed: Int = 0
 
 
-    //init is executed the moment an object of a Boxer class is initialised.
+    // Because the Boxer class is initialised init is executed  so John-1000-2000 will be executed
     init {
         this.name = name
         println(name + "_" + power + "-" + speed)
@@ -22,7 +22,7 @@ class Boxer(name:String, power:Int, speed: Int) {
         // the para of constructor from the constructor
     }
     fun getName(): String {
-        return this.name
+        return this.name //refers to the instance variable
 
     }
 
