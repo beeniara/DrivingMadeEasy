@@ -4,11 +4,11 @@ fun main(args: Array<String>) {
     //multiple interfaces. more flexible than class//
     //if we do not use inheritance, we can use an interface, it is a contract between itself and any class implemented
 var myNexus = NexusClass()
-    println (myNexus.getName() + "-" + myNexus.getRam() + "-" = myNexus.getCPUType())
+    println (myNexus.getName() + "-" + myNexus.getRam() + "-" + myNexus.getCPUType())
     var myIphone = IPhoneClass()
     println (myIphone.getName() + "-" + myIphone.getRam() + "-" + myIphone.getCPUType() )
 
-    //why red
+
 }
 
 interface ComputerInterface {
